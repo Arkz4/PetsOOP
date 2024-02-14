@@ -22,5 +22,15 @@ namespace ClassLibrary1
         {
             Console.WriteLine( Name + " climbs the wall");
         }    
+
+                public void Meet(Cat newFriend)
+        {
+            Console.WriteLine(Name + " jumps at " + newFriend.Name);
+        }
+
+        public void Meet(Turtle newFriend)
+        {
+            Console.WriteLine(Name + " Jumps at " + newFriend.Name);
+        }
     }
 }
