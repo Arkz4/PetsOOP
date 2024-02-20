@@ -8,7 +8,7 @@ while (input != "4") {
 Console.WriteLine("Welcome To The Pet Store");
 Console.WriteLine("1. Add a new Pet");
 Console.WriteLine("2. List all pets");
-Console.WriteLine("3. Remove a pet");
+Console.WriteLine("3. Remove all pets");
 Console.WriteLine("4. Exit");
     input = Console.ReadLine();
     switch (input)
@@ -39,7 +39,7 @@ Console.WriteLine("4. Exit");
             }
             break;
         case "2":
-            foreach (var Pet in Pets){
+            foreach (var Pet in pets){
               Pet.ShowInfo();
             }
 

@@ -13,7 +13,7 @@ namespace ClassLibrary1
         //constructor
         public Pet(string name)
         {
-            name = name;
+            Name = name;
         }
         public abstract void MakeSound();
         public void ShowInfo()
