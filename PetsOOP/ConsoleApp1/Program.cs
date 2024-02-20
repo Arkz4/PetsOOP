@@ -45,9 +45,7 @@ Console.WriteLine("4. Exit");
 
             break;
         case "3":
-            pets.Remove(Cat);
-            pets.Remove(Chimp);
-            pets.Remove(Turtle);
+           pets.Clear();
 
             break;
         default:
